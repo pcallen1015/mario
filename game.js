@@ -1,4 +1,6 @@
 const gameState = {
+    width: 1500,
+    height: 480,
     cellWidth: 16,
     cellHeight: 16,
     scale: 2,
@@ -7,7 +9,7 @@ const gameState = {
 };
 
 const config = {
-    width: 800,
+    width: 480,
     height: 480,
     physics: {
         default: 'arcade',
